@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms.</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <hr>
+    <form action="post">
+        <div>
+            <label for="username" >Username :</label>
+        <input type="text" name="username" id="username" placeholder="enter your username" >
+        </div>
+        <div>
+            <label for="age">Age : </label>
+        <input type="number" name="num" id="age" placeholder="enter your age">
+        </div>
+        <div>
+            <label for="gen">Gender :</label>
+            <input type="radio" name="gen" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gen" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="home">select your city : </label>
+            <select name="city" id="home">
+                <option value="lucknow">Lucknow</option>
+                <option value="delhi">New Delhi</option>
+                <option value="agra">Agra</option>
+            </select>
+        </div>
+        <div>
+            <label for="tick">Subscribe to newsletter</label>
+            <input type="checkbox" name="check" id="tick">
+        </div>
+        <div>
+            <label for="comm">Any Suggestions : </label></div>
+        <div><textarea name="comment" id="comm" placeholder="enter your comment" rows="10" cols="20"></textarea></div>
+    </form>
+</body>
+</html>
